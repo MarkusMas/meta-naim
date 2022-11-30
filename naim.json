@@ -2,7 +2,7 @@
     "name": "Music Player",
     "manufacturer": "Naim",
     "type": "AUDIO",
-    "version": 2,
+    "version": 3,
     "variables": {
         "ToInitiate": false
     },
@@ -100,8 +100,8 @@
                 "evaldo": [
                     {
                         "test": "DYNAMIK $Result",
-                        "then": "MUTE",
-                        "or": "UNMUTE"
+                        "then": "__MUTE",
+                        "or": "__UNMUTE"
                     }
                 ]
             }
